@@ -6,8 +6,9 @@ contract HelloWorldPermanent {
 
 
     constructor(string memory _message){
-        message = _message;
         //"NON CHANGABLE MESSAGE";
+        message = _message;
+        
     }
 
 }

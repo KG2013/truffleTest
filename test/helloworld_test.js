@@ -9,6 +9,7 @@ contract("HelloWorld", accounts => {
     it("owner should be accounts[0]",async () => {
         let instance = await HelloWorld.deployed();
         let owner = await instance.owner();
+        
         assert.equal(owner,accounts[0]);
     })
 })

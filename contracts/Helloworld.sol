@@ -11,7 +11,9 @@ contract HelloWorld {
     }
 
     function hello() public view returns(string memory){
+
         return message;
+        
     }
 
     function setMessage(string memory _message) public payable {
